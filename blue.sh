@@ -1,6 +1,6 @@
 #! /usr/bin/bash
 
-device="08:EB:ED:D7:AF:27"
+device="F0:2F:74:6A:FC:2B"
 
 if bluetoothctl info "$device" | grep 'Connected: yes' -q; 
 
